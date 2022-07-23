@@ -44,3 +44,7 @@ The CLI will perform a lengthy series of installations and configurations. Do no
 After the installation is complete, navigate out of the _Boost_ __root__ directory via `cd ../`. Two new directories will be present: `include` and `lib`. 
 
 ## Compilation, Linking, and Execution of Program 
+
+```
+c++ -I /path/to/boost_1_79_0 log_test.cpp -o run.exe /path/to/lib/libboost_log_setup.a /path/to/lib/libboost_thread.a /path/to/lib/libboost_log.a -fvisibility=hidden
+```
