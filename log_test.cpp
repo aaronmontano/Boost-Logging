@@ -1,7 +1,7 @@
 #include <boost/log/trivial.hpp>
 
 int main(int, char*[]) {
-
+  
   BOOST_LOG_TRIVIAL(trace) << "Trace log.";
   BOOST_LOG_TRIVIAL(debug) << "Debug log.";
   BOOST_LOG_TRIVIAL(info) << "Info log.";
