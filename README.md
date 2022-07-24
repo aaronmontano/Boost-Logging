@@ -1,4 +1,5 @@
-# Boost-Logging
+# Boost Logging Example 
+
 Examples of the logging capabilities from the Boost C++ Library. 
 
 # Introduction and Motivation 
