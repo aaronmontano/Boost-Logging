@@ -45,6 +45,16 @@ After the installation is complete, navigate out of the _Boost_ __root__ directo
 
 ## Compilation, Linking, and Execution of Program 
 
+To compile and link the program, execute the following command with your system's path to the required directories. 
+
 ```
 c++ -I /path/to/boost_1_79_0 log_test.cpp -o run.exe /path/to/lib/libboost_log_setup.a /path/to/lib/libboost_thread.a /path/to/lib/libboost_log.a -fvisibility=hidden
 ```
+
+Once compiled and linked, run the following command:
+
+```
+./run.exe > log_test.log
+```
+
+A new file by the name of `log_test.log` will be created which will hold all of logging information in our program. 
